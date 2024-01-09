@@ -58,7 +58,7 @@ public class Picture
             drawn = true;
 
             window2.changeColor("white");
-            window2.moveHorizontal(40);
+            window2.moveHorizontal(30);
             window2.moveVertical(-80);
             window2.makeVisible();
         }
