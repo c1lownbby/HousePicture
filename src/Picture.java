@@ -51,7 +51,7 @@ public class Picture
             roof.makeVisible();
 
             sun.changeColor("yellow");
-            sun.moveHorizontal(100);
+            sun.moveHorizontal(30);
             sun.moveVertical(-40);
             sun.changeSize(80);
             sun.makeVisible();
