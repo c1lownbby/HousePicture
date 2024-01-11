@@ -53,7 +53,7 @@ public class Picture
             roof2.makeVisible();
 
             wall3.changeColor("creamDark");
-            wall3.moveHorizontal(-30);
+            wall3.moveHorizontal(-31);
             wall3.moveVertical(20);
             wall3.changeSize(160);
             wall3.makeVisible();
