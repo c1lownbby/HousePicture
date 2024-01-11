@@ -48,12 +48,12 @@ public class Picture
 
             roof2.changeColor("darkBrick");
             roof2.changeSize(120, 330);
-            roof2.moveHorizontal(50);
+            roof2.moveHorizontal(90);
             roof2.moveVertical(-110);
             roof2.makeVisible();
 
             wall3.changeColor("creamDark");
-            wall3.moveHorizontal(-90);
+            wall3.moveHorizontal(-30);
             wall3.moveVertical(20);
             wall3.changeSize(160);
             wall3.makeVisible();
