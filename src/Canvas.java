@@ -133,8 +133,20 @@ public class Canvas
         else if(colorString.equals("white")) {
             graphic.setColor(Color.white);
         }
-        else if(colorString.equals("pink")){
-            graphic.setColor(new Color(252, 149, 232));
+        else if(colorString.equals("brick")){
+            graphic.setColor(new Color(224, 138, 91));
+        }
+        else if(colorString.equals("darkBrick")){
+            graphic.setColor(new Color(202, 118, 91));
+        }
+        else if(colorString.equals("cream")){
+            graphic.setColor(new Color(241, 225, 178));
+        }
+        else if(colorString.equals("creamDark")){
+            graphic.setColor(new Color(222, 205, 159));
+        }
+        else if(colorString.equals("teal")){
+            graphic.setColor(new Color(95, 164, 157));
         }
         else {
             graphic.setColor(Color.black);
