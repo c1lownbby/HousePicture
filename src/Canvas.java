@@ -139,17 +139,38 @@ public class Canvas
         else if(colorString.equals("darkBrick")){
             graphic.setColor(new Color(202, 118, 91));
         }
+        else if(colorString.equals("redRocks")){
+            graphic.setColor(new Color(160, 91, 70));
+        }
+        else if(colorString.equals("brown")){
+            graphic.setColor(new Color(71, 44, 35));
+        }
         else if(colorString.equals("cream")){
             graphic.setColor(new Color(241, 225, 178));
+        }
+        else if(colorString.equals("grey")){
+            graphic.setColor(new Color(177, 176, 176));
         }
         else if(colorString.equals("creamDark")){
             graphic.setColor(new Color(222, 205, 159));
         }
+        else if(colorString.equals("creamDarker")){
+            graphic.setColor(new Color(181, 165, 121));
+        }
+        else if(colorString.equals("concrete")){
+            graphic.setColor(new Color(248, 231, 204));
+        }
         else if(colorString.equals("teal")){
             graphic.setColor(new Color(95, 164, 157));
         }
+        else if(colorString.equals("pink")){
+            graphic.setColor(new Color(255, 67, 185));
+        }
         else if(colorString.equals("nightSky")){
             graphic.setColor(new Color(38, 75, 94));
+        }
+        else if(colorString.equals("bush")){
+            graphic.setColor(new Color(109, 146, 75));
         }
         else {
             graphic.setColor(Color.black);
